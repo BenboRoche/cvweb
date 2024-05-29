@@ -1,6 +1,8 @@
 body {
     font-family: 'Tahoma', sans-serif;
     background-color: #008080; /* Teal background to mimic Windows XP */
+    background-image: url(./images/xp2.2.PNG);
+    background-repeat: no-repeat;
     color: #000;
     margin: 0;
     padding: 20px;
@@ -42,6 +44,7 @@ body {
 
 .menu-item {
     margin-right: 15px;
+    border: 1px;
 }
 
 .menu-item a {
