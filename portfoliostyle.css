@@ -21,7 +21,7 @@ body {
     background-color: #ece9d8; /* Set background color to Windows XP style */
     margin: 20px auto; /* Add some top margin for better spacing */
     padding: 0; /* Ensure no padding */
-    border: 2px solid #000;
+    border: 2px solid #0000ff;;
     border-radius: 5px;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
 }
@@ -29,7 +29,7 @@ body {
 .title-bar {
     background-color: #0000ff; /* Blue color for the title bar */
     color: #fff;
-    width: calc(100% - 4px); /* Same width as the window minus the border */
+    width: calc(100% + 5px); /* Same width as the window minus the border */
     margin: -2px -2px 10px -2px; /* Aligns with window border */
     padding: 5px 10px;
     display: flex;
